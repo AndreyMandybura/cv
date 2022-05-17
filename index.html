@@ -17,7 +17,7 @@
                 <h2 class="about-me-profession">Front-End Developer</h2>
                 <h1 class="about-me-name">Andrii Mandybura</h1>
                 <p class="about-me-description">I am a Front-End developer looking for a full-time job. I focus on HTML5, CSS3, JS, React. English - pre-Intermediate. I am a fast learner, responsible and ready for tasks.
-                    <button type="button" data-modal-open>Certificate</button>
+                    <button type="button" class="about-me-certificate-btn" data-modal-open>Certificate</button>
                 </p>
             </div>
             <div  class="my-projects-section">
@@ -111,7 +111,7 @@
                     <div class="my-additional-education-company-block">
                         <h4 class="my-additional-education-position">IT School GoIT (Kyiv)</h4>
                         <p class="my-additional-education-period">March 2021 - April 2022</p>
-                        <p class="my-additional-education-speciality">Full Stack Developer</p>
+                        <p class="my-additional-education-speciality" data-modal-open-education>Full Stack Developer</p>
                     </div>
                 </div>
         </div>
@@ -181,17 +181,13 @@
                 <div class="modal-box">
                 <img src="img/certificate.jpg" alt="certificate">
                 <button type="button" data-modal-close class="modal-close-btn">
-                    <svg class="modal__close-btn-svg" width="18" height="18">
-                        <use href="img/close-btn.svg"></use>
+                    <svg class="modal__close-btn-svg">
+                        <use href="./img/close-btn.svg#close"></use>
                     </svg>
                 </button>
                 </div>
             </div>
         </div>
-
-
-
-
     </div>
     <script src="./js/modal.js"></script>
 </body>
